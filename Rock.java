@@ -38,13 +38,10 @@ public class Rock {
             } else if ((userChoice.equals("rock") && computerChoice.equals("scissors")) ||
                     (userChoice.equals("paper") && computerChoice.equals("rock")) ||
                     (userChoice.equals("scissors") && computerChoice.equals("paper"))) {
-                System.out.println("You win!");
+                    System.out.println("You win!  Congratulations!");
             } else {
-                System.out.println("Computer wins!");
+                System.out.println("Bot wins!");
             }
         }
-
-        // Close the scanner
-        scanner.close();
     }
 }
